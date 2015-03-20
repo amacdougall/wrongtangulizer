@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 0.0-3126
+{:cljs.analyzer/constants {:order [:on-jsload], :seen #{:on-jsload}}, :imports nil, :requires {fw figwheel.client, figwheel.client figwheel.client, wrongtangular.core wrongtangular.core}, :uses nil, :require-macros nil, :use-macros nil, :excludes #{}, :doc nil, :name wrongtangular.dev}

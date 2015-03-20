@@ -1,0 +1,75 @@
+/* line 4, ../../../src/scss/style.scss */
+html {
+  font-family: Verdana, Helvetica;
+}
+
+/* line 8, ../../../src/scss/style.scss */
+h1 {
+  font-size: 1rem;
+}
+
+/* line 12, ../../../src/scss/style.scss */
+div {
+  position: relative;
+}
+
+/* line 16, ../../../src/scss/style.scss */
+.panels {
+  margin-top: 20px;
+}
+
+/* line 20, ../../../src/scss/style.scss */
+.left-panel, .right-panel {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 25, ../../../src/scss/style.scss */
+.left-panel {
+  width: 20%;
+  margin-right: 5rem;
+  padding: 1.5rem;
+  background-color: skyblue;
+}
+
+/* line 32, ../../../src/scss/style.scss */
+.instructions, .progress {
+  font-size: 0.8rem;
+}
+
+/* line 36, ../../../src/scss/style.scss */
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* line 43, ../../../src/scss/style.scss */
+.tinder .previous {
+  position: absolute;
+  top: -16px;
+}
+
+/* line 50, ../../../src/scss/style.scss */
+.hidden {
+  display: none;
+}
+
+/* line 54, ../../../src/scss/style.scss */
+.image-title {
+  margin-bottom: 30px;
+}
+
+/* line 59, ../../../src/scss/style.scss */
+.progress-bar .total, .progress-bar .complete {
+  height: 10px;
+}
+/* line 63, ../../../src/scss/style.scss */
+.progress-bar .total {
+  width: 100%;
+  background-color: blue;
+}
+/* line 68, ../../../src/scss/style.scss */
+.progress-bar .complete {
+  background-color: silver;
+}
