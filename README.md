@@ -1,6 +1,6 @@
 # Wrongtangulizer
 
-TODO: Write a gem description
+Generates a Wrongtangular! instance using a supplied set of model objects.
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+require "wrongtangulizer"
+
+wrongtangulize(mode_objects)
 
 ## Contributing
 
