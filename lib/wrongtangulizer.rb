@@ -15,7 +15,7 @@ module Wrongtangulizer
   # :title_key => A symbol key used to find the display name for each model object.
   #   By default, tests :title, then :name, then :id, using the first value
   #   which was non-nil for any object.
-  def wrongtangulize(model_objects, options={})
+  def self.wrongtangulize(model_objects, options={})
     output_dir = options[:output_dir] || "output"
     image_key = options[:image_key] || :image_url
     title_key = options[:title_key]
