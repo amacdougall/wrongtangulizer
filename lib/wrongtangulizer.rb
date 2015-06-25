@@ -53,7 +53,7 @@ module Wrongtangulizer
   # Given an array of {:id, :url, :title} hashes, generates a Wrongtangular!
   # instance. When using this gem from the Rails console, it is better to use a
   # higher-level function such as Wrongtangulizer.model_images.
-  def self.create_instance(candidates, output_dir)
+  def self.create_instance(candidates, output_dir="output")
     unless File.directory?(output_dir)
       if File.exists?(output_dir)
         raise "Could not produce output, because a file named #{output_dir} already exists."
