@@ -33,6 +33,11 @@ div {
 }
 
 /* line 37, ../../../src/scss/style.scss */
+.loading {
+  margin: 5em;
+}
+
+/* line 41, ../../../src/scss/style.scss */
 .content {
   display: -webkit-flex;
   -webkit-flex-direction: row;
@@ -40,7 +45,7 @@ div {
   flex-direction: row;
 }
 
-/* line 50, ../../../src/scss/style.scss */
+/* line 54, ../../../src/scss/style.scss */
 .information {
   -moz-border-radius: 2vh;
   -webkit-border-radius: 2vh;
@@ -49,51 +54,52 @@ div {
   margin: 5vh 5vw;
   padding: 2vh 2vw;
   font-size: 0.8rem;
+  height: 70vh;
 }
 
-/* line 58, ../../../src/scss/style.scss */
+/* line 63, ../../../src/scss/style.scss */
 .title {
   font-size: 20px;
   font-weight: bold;
   margin-right: 10px;
 }
 
-/* line 64, ../../../src/scss/style.scss */
+/* line 69, ../../../src/scss/style.scss */
 .tinder {
   margin: 5vh 5vw;
 }
-/* line 67, ../../../src/scss/style.scss */
+/* line 72, ../../../src/scss/style.scss */
 .tinder .previous {
   position: absolute;
   top: -16px;
 }
-/* line 72, ../../../src/scss/style.scss */
+/* line 77, ../../../src/scss/style.scss */
 .tinder img {
   max-width: 80vw;
   max-height: 80vh;
 }
 
-/* line 78, ../../../src/scss/style.scss */
+/* line 83, ../../../src/scss/style.scss */
 .image-title {
   margin-bottom: 30px;
 }
 
-/* line 83, ../../../src/scss/style.scss */
+/* line 88, ../../../src/scss/style.scss */
 .progress-bar .total, .progress-bar .complete {
   height: 1vh;
 }
-/* line 87, ../../../src/scss/style.scss */
+/* line 92, ../../../src/scss/style.scss */
 .progress-bar .total {
   margin-bottom: -1vh;
   width: 100%;
   background-color: #A9EBFF;
 }
-/* line 93, ../../../src/scss/style.scss */
+/* line 98, ../../../src/scss/style.scss */
 .progress-bar .complete {
   background-color: #529DB2;
 }
 
-/* line 98, ../../../src/scss/style.scss */
+/* line 103, ../../../src/scss/style.scss */
 .results {
   margin-left: 3em;
 }
