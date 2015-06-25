@@ -9,7 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Alan MacDougall"]
   spec.email         = ["alan@paperlesspost.com"]
   spec.summary       = %q{Generates Wrongtangular! instances from model object lists.}
-  spec.homepage      = ""
+  spec.description   = %q{Use this gem in the Rails console to simplify QA after package reformatting scripts, for instance.}
+  spec.homepage      = "http://www.paperlesspost.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -17,8 +18,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "bundler", "~>1.6"
+  spec.add_development_dependency "rake", "~>10.4"
 
-  spec.add_runtime_dependency "multi_json"
+  spec.add_runtime_dependency "multi_json", "~>1.0"
 end
