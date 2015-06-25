@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Wrongtangulizer::VERSION
   spec.authors       = ["Alan MacDougall"]
   spec.email         = ["alan@paperlesspost.com"]
-  spec.summary       = %q{Generates Wrongtangular! instances from model object lists.}
-  spec.description   = %q{Use this gem in the Rails console to simplify QA after package reformatting scripts, for instance.}
+  spec.summary       = %q{Use this gem in the Rails console; for instance, to simplify QA after package reformatting scripts.}
+  spec.description   = %q{Generates Wrongtangular! instances from model object lists. See github.com/amacdougall/wrongtangulizer for details.}
   spec.homepage      = "http://www.paperlesspost.com"
   spec.license       = "MIT"
 
