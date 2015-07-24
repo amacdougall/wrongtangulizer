@@ -18,12 +18,15 @@ module Wrongtangulizer
       template = package.template
       text_sides = template.card.sides.select {|s| s.assets_by_type("text").present?}
 
+      # skip this package if it has not been completed uploaded to S3
+      next unless text_sides.map(&:image).compact.all?(&:s3)
+
       {
         id: package.id,
         title: package.name,
         urls: text_sides.map(&:image_url)
       }
-    end
+    end.compact
 
     self.create_instance(candidates, options[:output_dir] || "output")
   end
@@ -58,7 +61,7 @@ module Wrongtangulizer
       if File.exists?(output_dir)
         raise "Could not produce output, because a file named #{output_dir} already exists."
       else
-        Dir.mkdir(output_dir)
+        FileUtils.mkdir_p(output_dir)
       end
     end
 
